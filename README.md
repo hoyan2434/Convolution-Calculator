@@ -2,9 +2,8 @@
 
 This README serves as the official documentation and user manual for the **Convolution Simulator**, a Python-based interactive tool designed to visualize 2D image convolution operations. It is particularly useful for students and researchers to understand how different kernels, padding types, and data ranges affect image processing.
 
-## ---
 
-**🚀 Features**
+## **🚀 Features**
 
 * **Real-Time Configuration:** Adjust padding, operations, and sizes instantly.  
 * **Non-Destructive Matrix Resizing:** Change image or kernel dimensions without losing existing data; new cells are initialized as "null".  
@@ -12,9 +11,7 @@ This README serves as the official documentation and user manual for the **Convo
 * **Visual Padding Insight:** Distinct color-coding (cyan text and blue backgrounds) highlights padded regions in the input view.  
 * **Advanced Sharpening:** Supports unsharp masking where you provide the blur kernel and alpha value to derive the final sharpening filter.
 
-## ---
-
-**🛠️ Installation**
+## **🛠️ Installation**
 
 Ensure you have Python 3.x installed along with the following dependencies:
 
@@ -22,9 +19,7 @@ Bash
 
 pip install numpy scipy matplotlib
 
-## ---
-
-**📖 User Guide**
+## **📖 User Guide**
 
 ### **1\. Configuration (Top Panel)**
 
@@ -54,15 +49,10 @@ The simulator displays three distinct views:
 2. **Kernel Filter:** Shows the actual filter being applied. In sharpening mode, this displays the *derived* sharpen kernel.  
 3. **Output:** The final result of the convolution.
 
-## ---
-
-**📐 Mathematical Precision**
+## **📐 Mathematical Precision**
 
 The simulator prioritizes exactness:
 
 * If a result is $1/3$, it will display **1/3**.  
 * If a result is $0.1$, it will display **0.1**.
 
----
-
-**Would you like me to add a "Troubleshooting" section to this README for common user errors?**
